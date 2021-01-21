@@ -44,7 +44,7 @@ email_entry = Entry(width=35)
 # For default autofill email enter your email below
 # email_entry.insert(END, "EMAIL")
 email_entry.grid(row=2, column=1, columnspan=2)
-password_entry = Entry(width=35)
+password_entry = Entry(width=34)
 password_entry.grid(row=3, column=1)
 
 #buttons
